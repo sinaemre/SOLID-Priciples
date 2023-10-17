@@ -30,24 +30,24 @@ namespace _3.LSP
             #endregion
 
             #region Good
-            UcakAGood ucakA = new UcakAGood();
-            UcakBGood ucakB = new UcakBGood();
-            UcakCGood ucakC = new UcakCGood();
+            //UcakAGood ucakA = new UcakAGood();
+            //UcakBGood ucakB = new UcakBGood();
+            //UcakCGood ucakC = new UcakCGood();
 
 
-            Console.WriteLine("Keşifler: ");
-            List<IKesifYap> kesifYapanlar = new List<IKesifYap> { ucakA, ucakB, ucakC };
-            foreach (var ucak in kesifYapanlar)
-            {
-                ucak.KesifYap();
-            }
+            //Console.WriteLine("Keşifler: ");
+            //List<IKesifYap> kesifYapanlar = new List<IKesifYap> { ucakA, ucakB, ucakC };
+            //foreach (var ucak in kesifYapanlar)
+            //{
+            //    ucak.KesifYap();
+            //}
 
-            Console.WriteLine("Ataklar: ");
-            List<IHedefiVur> hedefiVuranlar = new List<IHedefiVur> { ucakA, ucakB };
-            foreach (var ucak in hedefiVuranlar)
-            {
-                ucak.HedefiVur();
-            }
+            //Console.WriteLine("Ataklar: ");
+            //List<IHedefiVur> hedefiVuranlar = new List<IHedefiVur> { ucakA, ucakB };
+            //foreach (var ucak in hedefiVuranlar)
+            //{
+            //    ucak.HedefiVur();
+            //}
             #endregion
         }
     }
